@@ -1,0 +1,16 @@
+camunda.bpm:
+  admin-user:
+    id: demo
+    password: demo
+    firstName: Demo
+  filter:
+    create: All tasks
+    
+greeting: Hello 
+url : http://dummy.restapiexample.com/api/v1
+
+resilience4j.retry:
+  instances:
+    retryService:
+      maxRetryAttempts: 5
+      waitDuration: 10000
